@@ -42,7 +42,7 @@ const App: React.FC = () => {
           </ul>
           {isAuthenticated ? (
             <div>
-              <span>Welcome!! {username}!</span>
+              <span>Welcome. {username}!</span>
               <button onClick={handleLogout}>Logout</button>
             </div>
           ) : (
